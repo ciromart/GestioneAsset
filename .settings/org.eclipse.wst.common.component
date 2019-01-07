@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GestioneAsset">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="antlr-2.7.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.7/antlr-2.7.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-2.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-2.1.1/dom4j-2.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-2.0.1.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/validation-api-2.0.1.Final/validation-api-2.0.1.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-5.1.3.RELEASE/spring-web-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-5.1.3.RELEASE/spring-expression-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-embed-el-9.0.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-embed-el-9.0.13/tomcat-embed-el-9.0.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-5.1.3.RELEASE/spring-aop-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jcl-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jcl-5.1.3.RELEASE/spring-jcl-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.transaction-api-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.transaction-api-1.3/javax.transaction-api-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="postgresql-42.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/postgresql-42.2.5/postgresql-42.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-datatype-jdk8-2.9.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-datatype-jdk8-2.9.7/jackson-datatype-jdk8-2.9.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.25.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.7.25/slf4j-api-1.7.25">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-5.1.3.RELEASE/spring-beans-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jandex-2.0.5.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jandex-2.0.5.Final/jandex-2.0.5.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-logging-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-logging-2.1.1.RELEASE/spring-boot-starter-logging-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.annotation-api-1.3.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.annotation-api-1.3.2/javax.annotation-api-1.3.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.activation-api-1.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.activation-api-1.2.0/javax.activation-api-1.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxb-api-2.3.1/jaxb-api-2.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="classmate-1.4.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/classmate-1.4.0/classmate-1.4.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-embed-core-9.0.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-embed-core-9.0.13/tomcat-embed-core-9.0.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-2.1.1.RELEASE/spring-boot-starter-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-autoconfigure-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-autoconfigure-2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aspectjweaver-1.9.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aspectjweaver-1.9.2/aspectjweaver-1.9.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-5.1.3.RELEASE/spring-context-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-embed-websocket-9.0.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-embed-websocket-9.0.13/tomcat-embed-websocket-9.0.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.9.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.9.7/jackson-core-2.9.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-tomcat-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-tomcat-2.1.1.RELEASE/spring-boot-starter-tomcat-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="byte-buddy-1.9.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/byte-buddy-1.9.5/byte-buddy-1.9.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-2.1.1.RELEASE/spring-boot-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="logback-core-1.2.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/logback-core-1.2.3/logback-core-1.2.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-to-slf4j-2.11.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-to-slf4j-2.11.1/log4j-to-slf4j-2.11.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-api-2.11.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-api-2.11.1/log4j-api-2.11.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-data-jpa-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-data-jpa-2.1.1.RELEASE/spring-boot-starter-data-jpa-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jboss-logging-3.3.2.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-logging-3.3.2.Final/jboss-logging-3.3.2.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-5.1.3.RELEASE/spring-webmvc-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-5.1.3.RELEASE/spring-orm-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.9.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.9.7/jackson-databind-2.9.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.persistence-api-2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.persistence-api-2.2/javax.persistence-api-2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-json-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-json-2.1.1.RELEASE/spring-boot-starter-json-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-data-jpa-2.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-data-jpa-2.1.3.RELEASE/spring-data-jpa-2.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.9.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.9.0/jackson-annotations-2.9.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-data-commons-2.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-data-commons-2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-6.0.13.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-validator-6.0.13.Final/hibernate-validator-6.0.13.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HikariCP-3.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/HikariCP-3.2.0/HikariCP-3.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-web-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-web-2.1.1.RELEASE/spring-boot-starter-web-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-5.1.3.RELEASE/spring-tx-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aspects-5.1.3.RELEASE/spring-aspects-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="logback-classic-1.2.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/logback-classic-1.2.3/logback-classic-1.2.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-aop-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-aop-2.1.1.RELEASE/spring-boot-starter-aop-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.23.1-GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.23.1-GA/javassist-3.23.1-GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-core-5.3.7.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-core-5.3.7.Final/hibernate-core-5.3.7.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-5.1.3.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-5.1.3.RELEASE/spring-core-5.1.3.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jul-to-slf4j-1.7.25.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jul-to-slf4j-1.7.25/jul-to-slf4j-1.7.25">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-datatype-jsr310-2.9.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-datatype-jsr310-2.9.7/jackson-datatype-jsr310-2.9.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations-5.0.4.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-commons-annotations-5.0.4.Final/hibernate-commons-annotations-5.0.4.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-boot-starter-jdbc-2.1.1.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-boot-starter-jdbc-2.1.1.RELEASE/spring-boot-starter-jdbc-2.1.1.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="snakeyaml-1.23.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/snakeyaml-1.23/snakeyaml-1.23">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-module-parameter-names-2.9.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-module-parameter-names-2.9.7/jackson-module-parameter-names-2.9.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="GestioneAsset"/>
+        <property name="java-output-path" value="/GestioneAsset/build/classes"/>
+    </wb-module>
+</project-modules>
